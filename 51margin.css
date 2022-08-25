@@ -1,0 +1,47 @@
+html{
+	margin-top: -21px; /* to make the title to very top of the webpage */
+	margin-left: -8px; /* to make the title to very left of the webpage */
+}
+
+
+h1{
+	border: 1px solid;
+	width: 300px;
+	margin-bottom: 0px;
+}
+
+p{
+	border: 1px solid;
+	width: 250px; 
+	padding: 25px; /* is the length from the border to the words inside of it */
+	margin: 25px; /* is the length from each border or from the wall */
+}
+
+#p1{
+	margin: 25px;
+}
+
+#p2{
+	margin-top: 25px;
+	margin-right: 75px;
+	margin-bottom: 25px;
+	margin-left: 75px;
+	/* this is the same */
+	margin: 25px 75px 25px 75px;
+}
+
+#p3{
+	margin: 20%;
+}
+
+#p4{
+	margin-left: auto;
+}
+
+#p5{
+	margin-right: auto;
+}
+
+#p6{
+	margin: auto; /* stay in the middle of the webpage */
+}

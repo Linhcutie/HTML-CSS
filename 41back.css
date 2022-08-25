@@ -1,0 +1,30 @@
+html{
+	color: white;
+	background-image: url("411.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background: linear-gradient(grey,black) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;*/
+}
+
+
+h1{
+	background: linear-gradient(red,orange);
+	color: black;
+}
+
+p{
+	background: linear-gradient(grey,yellow);
+	color: green;
+}
+
+#mytext{
+	background: linear-gradient(orange,yellow);
+	color: green;
+}
+

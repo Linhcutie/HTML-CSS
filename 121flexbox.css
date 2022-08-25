@@ -1,0 +1,46 @@
+.container{
+	display: flex; /* make the box flex which is will change size due to page size */
+	flex-wrap: nowrap; 
+	/* or "warp"- will give the things move 
+	down to next road instead of compresing */
+	background-color: green;
+	height: 400px;
+
+	/*
+	flex-direction: column; // make the box to be vertical way
+							// or "column-reverse" which make box reverse
+	width: 110px; // the box fit 
+	*/
+
+	/*
+	justify-content: flex-start; // no apperance change 
+	justify-content: center; // make the things in center of the box
+	justify-content: flex-end 
+	// push all the things on the left and all the space push to the right
+	justify-content: space-around; // give the extra space between things
+	*/
+
+
+	align-items: center; /* all the items in the center */
+	align-items: flex-start; /* all the items in the top */
+	align-items: flex-end; /* all the items in the bottom */
+
+	/*  -this will make the item in the center 
+	    horizontally and vertically inside the box
+		-this ex just left one <div>#1</div> in html
+	justify-content: center; 
+	align-items: center;
+	*/
+	
+}
+
+.container div{
+	color: white;
+	height: 100px; /* create the square box with the height */
+	width: 100px; /* create the square box with the width */
+	background-color: gray;
+	text-align: center;
+	line-height: 100px;
+	font-size: 50px;
+	margin: 5px;
+}

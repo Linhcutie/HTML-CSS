@@ -1,0 +1,11 @@
+.fa-youtube{
+	color: red; /* color of icon */
+}
+
+.fa-twitter{
+	color: lightblue; /* color of icon */
+}
+
+a{
+	text-decoration: none; /* to remove the period or any unessary things */
+}

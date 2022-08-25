@@ -1,0 +1,63 @@
+/* can use other code too but this is exp with color */
+a:link{
+	color: green;
+}
+
+a:visited{
+	color: blue;
+}
+
+button:hover{
+	background-color: orange;
+	color: white;
+}
+
+button:active
+{
+	background-color: darkorange;
+}
+
+/*
+li:first-child{
+	background-color: #93ff7d;
+}
+
+li:last-child{
+	background-color: #93ff7d;
+}
+
+li:nth-child(3){
+	background-color: #93ff7d;
+}
+
+li:nth-child(odd){
+	background-color: #93ff7d;
+}
+
+li:nth-child(even){
+	background-color: #caffbf;
+}
+*/
+
+li:nth-child(3n+2){
+
+/*
+	nth-child(an+b)
+	a = cycle size <the space between>
+	n = counter(starts at 0)
+	b = offset value <start at what number>
+*/
+
+background-image: linear-gradient(to right,#fff421,#ffffff);
+opacity: 0.5;
+border: 1px solid;
+
+
+
+}
+
+
+
+
+
+

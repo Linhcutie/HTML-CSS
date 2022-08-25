@@ -1,0 +1,32 @@
+ul{
+	list-style-type: none; /* remove the dot */
+	padding: 0px; /* move the list to the left */
+	margin: 0px; /*no apprence change*/
+	overflow: hidden; /*no apprence change*/
+	background-color: green; 
+}
+
+li a{
+	float: left; /* to make the list to the straight line */
+	display: block; 
+	color: white; 
+	padding: 10px 15px; /* create the space between stuff */
+	text-align: center; /*make the words in center*/
+	text-decoration: none; /* get rid of the underline */
+	border-right: 1px solid black; /* create the border */
+	min-width: 60px; /* Make the width even */
+}
+
+li a:hover{ 
+/* the purpose is when the user move to the bar, the back ground 
+ color will change and the words will shine */
+	background-color: darkgreen;
+
+	animation: myGlowAnimation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myGlowAnimation{ /* code to make the words shine */
+	50%{text-shadow: opx opx 10px yellow;
+}

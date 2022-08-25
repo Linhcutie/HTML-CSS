@@ -1,0 +1,17 @@
+body{
+	background-color: black;
+}
+p{
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px; /* try 1em= 16px, or 2em */
+	text-decoration: normal /* underline wavy blue */;
+	color: green;
+
+
+}
+
+h1{
+color: green;
+}

@@ -1,0 +1,65 @@
+#p1{
+	width: 100px; /* the width of square */
+	height: 100px;  /* the height of square */
+	background: red;
+	font-size: 85px;
+	text-align: center;
+	margin: 0px;
+
+	/*animation: myColorAnimation;*/
+	animation: myRotateAnimation;
+	animation-duration: 5s; /* how long */
+	animation-iteration-count: infinite;
+}
+
+/*
+#p1: hover{   // this make user have to click on words to work
+	animation: myRotateAnimation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+*/
+@keyframes myColorAnimation{
+
+	/* 
+	from{background-color: red;}
+	to{background-color: yellow;}
+	Or
+	 */
+	
+	0%{background-color: red;}
+	20%{background-color: orange;}
+	40%{background-color: yellow;}
+	60%{background-color: green;}
+	80%{background-color: blue;}
+	100%{background-color: purple;}
+}
+
+@keyframes myRotateAnimation{
+	
+	/*100%{transform: rotateX(360deg);}*/
+	/*100%{transform: rotateY(360deg);}*/
+	100%{transform: rotateZ(360deg);}
+
+}
+
+@keyframes myTranslate{
+	50%{transform: translate(100px,100px);} /* moving the square around */
+}
+
+@keyframes myScale{
+	50%{transform: scale(0.5,0.5);} /* change the square scale smaller then bigger  */
+}
+
+@keyframes myOpacity{ /* fade in then fade out */
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+	/* combine animations */
+@keyframes myFont{ /* say hi arregesively */
+	0%{font-size: 85px;}
+	50%{font-size: 400px;}
+	100%{font-size: 85px;}
+}
